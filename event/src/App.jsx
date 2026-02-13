@@ -1,7 +1,7 @@
 import './App.css';
-import Eventtdo from "./Eventtodo";
 
-
+// import Eventtodo from './Eventtodo';
+import Counter from './Counter';
 
 
 function App(){
@@ -10,7 +10,8 @@ function App(){
   return(
 
     <>
-    <Eventtodo/>
+    <Counter/>
+    {/* <Eventtodo/> */}
     </>
   )
 }
