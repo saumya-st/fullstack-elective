@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 export default function Counter(){
     const [count,setCount] = useState(0);
     
@@ -12,6 +13,8 @@ export default function Counter(){
         // count--;
         console.log(count);
     }
+    useEffect(()=>{console.log("Welcome")},[])
+    useEffect(()=>{console.log("Count updated")},[count])
     return(
         <>
         <h1>Counter app</h1>
